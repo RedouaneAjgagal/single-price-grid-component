@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(204, 43%, 93%);
+}
+main{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    max-width: 42rem;
+    min-height: 100vh;
+    padding: 0 1rem;
+}
+/* Top section */
+.top-section{
+    background-color: #fff;
+    box-shadow: 0 0 0.5rem hsl(203, 50%, 91%);
+    border-radius: 0.4rem 0.4rem 0 0;
+    padding: 2.5rem 2.3rem;
+}
+.top-section h1{
+    color: hsl(179, 62%, 43%);
+    margin-bottom: 1.5rem;
+}
+.top-section h3{
+    color: hsl(71, 73%, 54%);
+    margin-bottom: 1rem;
+}
+.top-section p{
+    color: hsl(218, 22%, 67%);
+    line-height: 1.6;
+}
+/* Bottom section -left side- */
+.bottom-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+.left-section{
+    background-color: #2ab2af;
+    border-radius: 0 0 0 0.4rem;
+    color: #fff;
+    padding: 2.5rem 2.3rem;
+}
+.left-section h3{
+    margin-bottom: 1rem;
+}
+.pricing{
+    align-items: center;
+    display: flex;
+    font-size: 2rem;
+    gap: 1rem;
+    margin-bottom: 0.4rem;
+}
+.pricing span{
+    color: rgba(255, 255, 255, 0.425);
+    font-size: 1rem;
+}
+.left-section a{
+    background-color: hsl(71, 73%, 54%);
+    border-radius: .4rem;
+    box-shadow: 0 0.5rem 0.5rem #1a9b99;
+    color: #fff;
+    display: block;
+    margin-top: 1.6rem;
+    padding: .8rem;
+    transition: .2s;
+    text-decoration: none;
+    text-align: center;
+}
+.left-section a:hover{
+    background-color: hsl(71, 71%, 50%);
+}
+/* -right side- */
+.right-section{
+    background-color: #50bbb9;
+    border-radius: 0 0 0.4rem 0;
+    color: #ebebeb;
+    padding: 2.5rem 2.3rem;
+}
+.right-section h3{
+    color: #fff;
+    margin-bottom: 1rem;
+}
+.right-section p{
+    font-size: 0.85rem;
+    padding: 0.2rem 0;
+}
+/* Media query */
+@media (max-width:680px){
+    main{
+        padding: 3rem 1rem;
+        max-width: 23rem;
+    }
+    .bottom-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .left-section {
+        border-radius: 0 0 0 0rem;
+    }
+    .right-section {
+        border-radius: 0 0 0.4rem 0.4rem;
+    }
+}
