@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:(https://github.com/RedouaneAjgagal/single-price-grid-component)
-- Live Site URL:(https://redouaneajgagal.github.io/single-price-grid-component)
+- Solution URL: https://github.com/RedouaneAjgagal/single-price-grid-component
+- Live Site URL: https://redouaneajgagal.github.io/single-price-grid-component
 
 ## My process
 
